@@ -1,0 +1,22 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Palma.Prompting/Palma.Prompting.CLI/appsettings.json
+/Palma.Prompting/.vs/Palma.Prompting/v17/.suo
+/Palma.Prompting/.vs/Palma.Prompting/FileContentIndex/read.lock
+/Palma.Prompting/.vs/Palma.Prompting/FileContentIndex/fc374321-7c53-405d-ae59-c631aff5bc86.vsidx
+/Palma.Prompting/.vs/Palma.Prompting/FileContentIndex/4ed559b5-608d-4887-86b6-a19500dcdec4.vsidx
+/Palma.Prompting/.vs/Palma.Prompting/FileContentIndex/21107352-5128-40a8-9f6e-88796ed3993f.vsidx
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.vs/Palma.Prompting/v17/.wsuo
+/.vs/Palma.Prompting/FileContentIndex/read.lock
+/.vs/Palma.Prompting/FileContentIndex/6034877d-007c-46bc-a40f-a01ac8650bbb.vsidx
+/Palma.Prompting/Palma.Prompting.CLI/obj/Palma.Prompting.CLI.csproj.nuget.g.targets
+/Palma.Prompting/Palma.Prompting.CLI/obj/Palma.Prompting.CLI.csproj.nuget.g.props
+/Palma.Prompting/Palma.Prompting.CLI/obj/Palma.Prompting.CLI.csproj.nuget.dgspec.json
+/Palma.Prompting/Palma.Prompting.CLI/obj/Debug/net7.0/Palma.Prompting.CLI.GeneratedMSBuildEditorConfig.editorconfig
+/Palma.Prompting/Palma.Prompting.CLI/obj/Debug/net7.0/Palma.Prompting.CLI.csproj.AssemblyReference.cache
+/Palma.Prompting/Palma.Prompting.CLI/obj/Debug/net7.0/Palma.Prompting.CLI.assets.cache
+/Palma.Prompting/Palma.Prompting.CLI/obj/Debug/net7.0/Palma.Prompting.CLI.AssemblyInfoInputs.cache
