@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "ooU5XJQPXVXrVs4dKIs38PQ8EQUXbdHS3liHrT5GoUzlCdVbjoQGz8n8HF1lAWm4stqORg2P/pcEpCZPzW2exA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pcdip\\source\\repos\\Palma.Prompting\\Palma.Prompting\\Palma.Prompting.CLI\\Palma.Prompting.CLI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pcdip\\.nuget\\packages\\azure.ai.openai\\1.0.0-beta.8\\azure.ai.openai.1.0.0-beta.8.nupkg.sha512",
+    "C:\\Users\\pcdip\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
+    "C:\\Users\\pcdip\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "C:\\Users\\pcdip\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0-rc.2.23479.6\\microsoft.extensions.configuration.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\pcdip\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0-rc.2.23479.6\\microsoft.extensions.configuration.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\pcdip\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\8.0.0-rc.2.23479.6\\microsoft.extensions.configuration.fileextensions.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\pcdip\\.nuget\\packages\\microsoft.extensions.configuration.json\\8.0.0-rc.2.23479.6\\microsoft.extensions.configuration.json.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\pcdip\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0-rc.2.23479.6\\microsoft.extensions.fileproviders.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\pcdip\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\8.0.0-rc.2.23479.6\\microsoft.extensions.fileproviders.physical.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\pcdip\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\8.0.0-rc.2.23479.6\\microsoft.extensions.filesystemglobbing.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\pcdip\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-rc.2.23479.6\\microsoft.extensions.primitives.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\pcdip\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "C:\\Users\\pcdip\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
+    "C:\\Users\\pcdip\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\pcdip\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\pcdip\\.nuget\\packages\\system.text.encodings.web\\8.0.0-rc.2.23479.6\\system.text.encodings.web.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\pcdip\\.nuget\\packages\\system.text.json\\8.0.0-rc.2.23479.6\\system.text.json.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\pcdip\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}
