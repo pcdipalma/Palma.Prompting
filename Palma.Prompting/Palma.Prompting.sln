@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palma.Prompting.CLI", "Palma.Prompting.CLI\Palma.Prompting.CLI.csproj", "{23DB4838-8987-41AC-9151-57F627077031}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palma.Prompting.CLI", "Palma.Prompting.CLI\Palma.Prompting.CLI.csproj", "{23DB4838-8987-41AC-9151-57F627077031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agents.CLI", "Agents.CLI\Agents.CLI.csproj", "{8503F45E-95F5-4D54-8B97-5C146E0CA625}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{23DB4838-8987-41AC-9151-57F627077031}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23DB4838-8987-41AC-9151-57F627077031}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23DB4838-8987-41AC-9151-57F627077031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8503F45E-95F5-4D54-8B97-5C146E0CA625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8503F45E-95F5-4D54-8B97-5C146E0CA625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8503F45E-95F5-4D54-8B97-5C146E0CA625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8503F45E-95F5-4D54-8B97-5C146E0CA625}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
