@@ -1,7 +1,25 @@
+using Microsoft.SemanticKernel;
+using System.ComponentModel;
+
 namespace Agents.CLI
 {
     public class ProjectInformationPlugin
     {
+
+        [KernelFunction("get_project_list")]
+        [Description("Gets information about all the projects")]
+        [return: Description("A list of project information details")]
+        public Task<List<string>> GetProjectInformationAsync()
+        {
+            var projectInfoList = new List<string>();
+            foreach (ProjectDetails projectDetails in DummyData.ProjectData.Select(p => p.Value))
+            {
+                var people = string.Join(", ", projectDetails.People.Select(p => $"{p.Name} ({p.Role})"));
+                projectInfoList.Add($"Project Name: {projectDetails.Name}, Status: {projectDetails.Status}, People: {people}");
+            }
+            return Task.FromResult(projectInfoList);
+        }
+
         [KernelFunction("get_project_information")]
         [Description("Gets information about a specified project")]
         [return: Description("Project information details")]

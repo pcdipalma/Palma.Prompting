@@ -1,8 +1,10 @@
 ﻿using Agents.CLI.Plugins;
+using Microsoft.Extensions.Configuration;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
 using Microsoft.SemanticKernel.Connectors.OpenAI;
 using System;
+using System.IO;
 using System.Threading.Tasks;
 
 namespace Agents.CLI
@@ -11,11 +13,22 @@ namespace Agents.CLI
     {
         static async Task Main(string[] args)
         {
+            // Build configuration
+            var configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                .Build();
+
+            // Read settings from configuration
+            var modelName = configuration["AzureOpenAI:ModelName"];
+            var endpoint = configuration["AzureOpenAI:Endpoint"];
+            var apiKey = configuration["AzureOpenAI:ApiKey"];
+
             // Initialize DummyData (this is optional since it's a static class and will be initialized automatically)
             var dummyData = DummyData.CalendarData; // Accessing it to ensure it's initialized
 
             var builder = Kernel.CreateBuilder();
-            builder.AddAzureOpenAIChatCompletion("gpt-4o", "https://<endpoint>.openai.azure.com/", "<key>");
+            builder.AddAzureOpenAIChatCompletion(modelName, endpoint, apiKey);
 
             builder.Plugins.AddFromType<CalendarPlugin>("CalendarPlugin");
             builder.Plugins.AddFromType<ProjectInformationPlugin>("ProjectInformationPlugin");

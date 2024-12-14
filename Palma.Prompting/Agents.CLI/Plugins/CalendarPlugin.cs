@@ -1,3 +1,6 @@
+using Microsoft.SemanticKernel;
+using System.ComponentModel;
+
 namespace Agents.CLI
 {
     public class CalendarPlugin

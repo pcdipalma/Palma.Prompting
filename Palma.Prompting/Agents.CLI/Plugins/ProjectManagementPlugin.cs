@@ -1,3 +1,6 @@
+using Microsoft.SemanticKernel;
+using System.ComponentModel;
+
 public class ProjectManagementPlugin
 {
     [KernelFunction("create_task")]
